@@ -1,0 +1,101 @@
+<html>
+
+<link rel="stylesheet" href="webstyle.css" type="text/css">
+
+<form name="input" action="browse.php" method="get">
+<b>Browse:</b>
+<input type="submit" value="Submit"/>
+</form>
+<br />
+
+<form name="input" action="search.php" method="POST">
+<b>Search:</b><br />
+<input type="text" placeholder="Type Movie's Title" name="name" />
+<input type="submit" value="Search" />
+</form>
+<br />
+
+<form name="input" action="update.php" method="POST">
+<b>Update:</b>
+<br />
+<fieldset>
+    <label>Title:</label><br />
+    <input type="text" placeholder="Type Movie's Title " name="Title">
+<br />
+    <label>Directors:</label><br />
+    <input type="text" placeholder="Type Directors' name" name="Directors" />
+<br />
+    <label>Year:</label><br />
+    <input type="text" placeholder="Type Year" name="Year" />
+<br />   
+    <label> Country:</label><br />
+    <input type="text" placeholder="Type Country" name="Country" />
+<br />   
+    <label> Length:</label><br />
+    <input type="text" placeholder="Type Length" name="Length" />
+<br />   
+    <label> Colour:</label><br />
+    <input type="radio" name="Colour" value="Col"/> Colorful 
+    <input type="radio" name="Colour" value="BW"/> Black-White 
+    <input type="radio" name="Colour" value="Col-BW"/> Col-BW
+<br />   
+    <label> Genre:</label><br />
+    <input type="text" placeholder="Type Genre" name="Genre" />
+</fieldset>
+<input type="submit" value="Submit" />
+</form>
+
+<form name="input" action="insert.php" method="POST">
+<b>Insert:</b>
+<br />
+<fieldset>
+     <label>Title:</label><br />
+     <input type="text" placeholder="Type Title" name="Title" />
+<br />
+     <label>Directors:</label><br />
+     <input type="text" placeholder="Type Directors" name="Directors" />
+<br />
+     <label>Year:</label><br />
+     <input type="text" placeholder="Type Year" name="Year" />
+<br />
+     <label>Country:</label><br />
+     <input type="text" placeholder="Type Country" name="Country" />
+<br />
+     <label>Length:</label><br />
+     <input type="text" placeholder="Type length" name="Length"/>
+<br />
+     <label>Colour:</label><br />
+     <input type="radio" name="Colour" value="Col"/> Colorful 
+     <input type="radio" name="Colour" value="BW"/> Black-White 
+     <input type="radio" name="Colour" value="Col-BW"/> Col-BW
+<br />
+     <label>Genre:</label><br />
+     <input type="text" placeholder="Type genre" name="Genre" />
+<br />
+     <label>City:</label><br />
+     <input type="text" placeholder="Type City" name="City" />
+<br />
+     <label>Popularity:</label><br />
+     <input type="text" placeholder="Popularity" name="Popularity" />
+</fieldset>
+<input type="submit" value="Submit" />
+</form>
+
+<form name="input" action="delete.php" method="POST">
+<b>Delete:</b><br />
+<input type="text" placeholder="Type Movie's Title" name="Title" />
+<input type="submit" value="Submit" />
+</form>
+<br />
+
+<form name="input" action="rate.php" method="POST">
+<b>See The Rate</b><br />
+<input type="text" placeholder="Type Movie's Title" name="name" />
+<input type="submit" value="Submit" />
+</form>
+<br />
+
+
+
+
+</html>
